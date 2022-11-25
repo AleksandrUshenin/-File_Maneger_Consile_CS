@@ -15,11 +15,10 @@ namespace TotalComanderOOP
         {
             SetWindowsSise();
             int siseWin = 20;
-            LoadsettingsDirs();
             DataDirectores[] DataDirs = new DataDirectores[] 
             {
-                new DataDirectores(Properties.Settings.Default.StartDir1, siseWin), 
-                new DataDirectores(Properties.Settings.Default.StartDir2, siseWin) 
+                new DataDirectores(Directory.GetCurrentDirectory(), siseWin), 
+                new DataDirectores(Directory.GetCurrentDirectory(), siseWin) 
             };
 
             ConsoleUserInerface userInterface = new ConsoleUserInerface(DataDirs);
@@ -38,15 +37,6 @@ namespace TotalComanderOOP
             Console.BufferHeight = 34;
             Console.BufferWidth = 101;
             Console.Title = "File Maneger v3";
-        }
-        static void LoadsettingsDirs()
-        {
-            if (Properties.Settings.Default.StartDir1 == "")
-            {
-                Properties.Settings.Default.StartDir1 = Directory.GetCurrentDirectory();
-                Properties.Settings.Default.StartDir2 = Properties.Settings.Default.StartDir1;
-            }
-            Properties.Settings.Default.Save();
         }
     }
 }

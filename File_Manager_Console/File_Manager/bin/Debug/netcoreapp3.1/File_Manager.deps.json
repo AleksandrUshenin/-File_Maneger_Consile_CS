@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "File_Manager/1.0.0": {
+        "dependencies": {
+          "LibraryProgram": "1.0.0"
+        },
+        "runtime": {
+          "File_Manager.dll": {}
+        }
+      },
+      "LibraryProgram/1.0.0": {
+        "runtime": {
+          "LibraryProgram.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "File_Manager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibraryProgram/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

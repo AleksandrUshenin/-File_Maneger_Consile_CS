@@ -105,7 +105,9 @@ namespace TotalComanderOOP
                             && Console.CursorLeft < DisplayConsole.WindowsWidth - 2)
                         {
                             command.Append(infoKey.KeyChar);
-                            DisplayConsole.PrintStringInCommandLine(DataDirs[DataDirectores.Select_Window].DirHome.Length,
+                            //DisplayConsole.PrintStringInCommandLine(DataDirs[DataDirectores.Select_Window].DirHome.Length,
+                            //    command.ToString());
+                            DisplayConsole.PrintStringInCommandLine(DataDirs[DataDirectores.Select_Window].DirHome,
                                 command.ToString());
                         }
                         break;

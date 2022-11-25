@@ -1,0 +1,17 @@
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\bin\Debug\netcoreapp3.1\File_Manager.exe
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\bin\Debug\netcoreapp3.1\File_Manager.deps.json
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\bin\Debug\netcoreapp3.1\File_Manager.runtimeconfig.json
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\bin\Debug\netcoreapp3.1\File_Manager.runtimeconfig.dev.json
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\bin\Debug\netcoreapp3.1\File_Manager.dll
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\bin\Debug\netcoreapp3.1\File_Manager.pdb
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\bin\Debug\netcoreapp3.1\LibraryProgram.dll
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\bin\Debug\netcoreapp3.1\LibraryProgram.pdb
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.csproj.AssemblyReference.cache
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.AssemblyInfoInputs.cache
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.AssemblyInfo.cs
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.csproj.CoreCompileInputs.cache
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.csproj.CopyComplete
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.dll
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.pdb
+C:\Users\sasha\GitProgect\AllGitProgect\-File_Maneger_Consile_CS\File_Manager_Console\File_Manager\obj\Debug\netcoreapp3.1\File_Manager.genruntimeconfig.cache

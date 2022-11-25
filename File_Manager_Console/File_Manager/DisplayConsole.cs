@@ -50,7 +50,9 @@ namespace TotalComanderOOP
         {
             ChangrForegroundColor(Color.White);
             SetCursorPosition(PisitionCursorInCommandLine[0], PisitionCursorInCommandLine[1]);
-            PrintWrite(Dir + " > ");
+            //PrintWrite(Dir + " > ");
+            PrintWrite(LibraryProgram.CurrentParth.GetPath(Dir + " > "));
+
         }
         public static void PrintStringInCommandLine(int DirLength, string str)
         {
@@ -58,11 +60,18 @@ namespace TotalComanderOOP
             SetCursorPosition(PisitionCursorInCommandLine[0] + 3 + DirLength, PisitionCursorInCommandLine[1]);
             PrintWrite(str);
         }
+        public static void PrintStringInCommandLine(string Dir, string str)
+        {
+            ChangrForegroundColor(Color.White);
+            SetCursorPosition(PisitionCursorInCommandLine[0] + 3 + CurrentParth.GetLength(Dir), PisitionCursorInCommandLine[1]);
+            PrintWrite(str);
+        }
         public static void DeliteCharInCommandLine(string Dir, int Length)
         {
-            SetCursorPosition(PisitionCursorInCommandLine[0] + 2 + Dir.Length + Length, PisitionCursorInCommandLine[1]);
+            //SetCursorPosition(PisitionCursorInCommandLine[0] + 2 + Dir.Length + Length, PisitionCursorInCommandLine[1]);
+            SetCursorPosition(PisitionCursorInCommandLine[0] + 2 + CurrentParth.GetLength(Dir) + Length, PisitionCursorInCommandLine[1]);
             PrintWrite(" ");
-            SetCursorPosition(PisitionCursorInCommandLine[0] + 2 + Dir.Length + Length, PisitionCursorInCommandLine[1]);
+            SetCursorPosition(PisitionCursorInCommandLine[0] + 2 + CurrentParth.GetLength(Dir) + Length, PisitionCursorInCommandLine[1]);
         }
         public static void DelitConsole()
         {
@@ -246,7 +255,7 @@ namespace TotalComanderOOP
         }
         public static void SetCursorPosition(int x, int y)
         {
-            Console.SetCursorPosition(x, y);
+           Console.SetCursorPosition(x, y);
         }
         //========================================
          /// <summary>
