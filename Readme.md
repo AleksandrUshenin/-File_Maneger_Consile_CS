@@ -1,3 +1,4 @@
+![2022-11-25](https://user-images.githubusercontent.com/102482033/204035523-b24352cd-d9e3-407f-9e37-3afb8a03c70c.png)
 Рукаводство к библиотеке.
 
 	Вызов команд : 
