@@ -236,7 +236,8 @@ namespace TotalComanderOOP
 
             DisplayConsole.ChangrForegroundColor(Color.White);
             DisplayConsole.DelitConsole();
-            DisplayConsole.PrintWrite(2, DisplayConsole.Line2_2 + 1, DataDirs[DataDirectores.Select_Window].DirHome + " > ");
+            //DisplayConsole.PrintWrite(2, DisplayConsole.Line2_2 + 1, DataDirs[DataDirectores.Select_Window].DirHome + " > ");
+            DisplayConsole.PrintWrite(2, DisplayConsole.Line2_2 + 1, CurrentParth.GetPath(DataDirs[DataDirectores.Select_Window].DirHome) + " > ");
         }
     }
 }
